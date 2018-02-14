@@ -1,0 +1,15 @@
+public class LetterToYourself {
+    public static void main(String[] args) {
+    System.out.println("________________________________________________________________");
+    System.out.println("|                                                        ###   |");
+    System.out.println("|                                                        ###   |");
+    System.out.println("|                                                        ###   |");
+    System.out.println("|                                                              |");
+    System.out.println("|                                                              |");
+    System.out.println("|                                                              |");
+    System.out.println("|                            Kathleen Tsang                    |");
+    System.out.println("|                            123 New Sour Lane                 |");
+    System.out.println("|                            Russmond Valley, HR 7584          |");
+    System.out.println("|______________________________________________________________|");
+    }
+}

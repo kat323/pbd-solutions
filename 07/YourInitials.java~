@@ -1,0 +1,11 @@
+public class YourInitials {
+    public static void main(String[] args) {
+        String.out.println("K   K   TTTTT");
+        String.out.println("K  K      T");
+        String.out.println("K K       T");
+        String.out.println("KK        T");
+        String.out.println("K K       T");
+        String.out.println("K  K      T");
+        String.out.println("K   K     T");
+    }
+}
