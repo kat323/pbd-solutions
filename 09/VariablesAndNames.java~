@@ -1,0 +1,42 @@
+public class VariablesAndNames {
+    public static void main (String[] args) {
+
+        //these two lines declare names that will attach to different variables. 
+        int cars, drivers, passengers, cars_not_driven, cars_driven;
+        double space_in_a_car, carpool_capacity, average_passengers_per_car;
+
+        //these lines declare the values of those variables.
+        //there are 100 cars 
+        cars = 100;
+        //this a value used as part of a formula to determine the carpool capacity. 
+        space_in_a_car = 4.0;
+        //there are 30 drivers.
+        drivers = 30;
+        //there are 90 passengers. 
+        passengers = 90;
+        //this variable computes the number of cars substracted by drivers.
+        cars_not_driven = cars - drivers;
+        //this variable calls the number of drivers. 
+        cars_driven = drivers;
+        //this variable multiplies the amount of cars driven and the space in an individual car. 
+        carpool_capacity = cars_driven * space_in_a_car;
+        //this variable divides the amount of passengers divided the amount of cars being driven. 
+        average_passengers_per_car = passengers / cars_driven;
+
+        //these lines return strings with the variables that are declared. 
+        System.out.println( "There are " + cars + " cars available." );
+        System.out.println( "There are only " + drivers + " drivers available." );
+        System.out.println( "There will be " + cars_not_driven + " empty cars today." );
+        System.out.println( "We can transport " + carpool_capacity + " people today." );
+        System.out.println( "We have " + passengers + " to carpool today." );
+        System.out.println( "We need to put about " + average_passengers_per_car + " in each car." );
+        
+    }
+}
+
+
+//1. It is necessary because it is not an integer. 
+//2. A floating number means that it has decimal values. 
+//3. Done above 
+//4. = means that it's making names for things. 
+//5. _ is a character. 
